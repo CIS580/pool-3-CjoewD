@@ -280,7 +280,7 @@ function render(elapsedTime, ctx) {
       ctx.drawImage(image,
         // Source Image
         sourceX * 160, sourceY * 160, 160, 160,
-        // Destination Image
+        // Destination Image...
         0, 0, 30, 30
       );
       ctx.beginPath();
